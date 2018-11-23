@@ -16,10 +16,10 @@ spring:
       minimum-idle: 7
       connection-timeout: 60000
       maximum-pool-size: 20
-#  jpa:
-#    hibernate:
-#      ddl-auto: update
-#    show-sql: true
-#  jackson:
-#    serialization:
-#      indent-output: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    serialization:
+      indent-output: true
